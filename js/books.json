@@ -1,0 +1,172 @@
+{
+   "books": [
+     {
+       "title": "The Woman in the Window",
+       "author": "A. J. Finn",
+       "price": 16.19,
+       "format": "paperback",
+       "genre": "fiction"
+     },
+     {
+       "title": "City of Endless Night",
+       "author": "Douglas Preston",
+       "price": 16.8,
+       "format": "hardcover",
+       "genre": "fiction"
+     },
+     {
+       "title": "Iron Gold",
+       "author": "Pierce Brown",
+       "price": 17.63,
+       "format": "ebook",
+       "genre": "fiction"
+     },
+     {
+       "title": "Origin",
+       "author": "Dan Brown",
+       "price": 17.97,
+       "format": "hardcover",
+       "genre": "fiction"
+     },
+     {
+       "title": "Fire and Fury: Inside the Trump White House",
+       "author": "Michael Wolff",
+       "price": 17.99,
+       "format": "hardcover",
+       "genre": "nonfiction"
+     },
+     {
+       "title": "It's Even Worse Than You Think",
+       "author": "David Cay Johnston",
+       "price": 20.54,
+       "format": "ebook",
+       "genre": "nonfiction"
+     },
+     {
+       "title": "Astrophysics for People in a Hurry",
+       "author": "Neil deGrasse Tyson",
+       "price": 11.37,
+       "format": "paperback",
+       "genre": "nonfiction"
+     },
+     {
+       "title": "Leonardo da Vinci",
+       "author": "Walter Isaacson",
+       "price": 20.99,
+       "format": "hardcover",
+       "genre": "nonfiction"
+     },
+     {
+       "title": "The Sun and Her Flowers",
+       "author": "Rupi Kaur",
+       "price": 10.19,
+       "format": "paperback",
+       "genre": "fiction"
+     },
+     {
+       "title": "Milk and Honey",
+       "author": "Rupi Kaur",
+       "price": 9.99,
+       "format": "paperback",
+       "genre": "fiction"
+     },
+     {
+       "title": "The Handmaid's Tale (Movie Tie-in)",
+       "author": "Margaret Atwood",
+       "price": 13.33,
+       "format": "ebook",
+       "genre": "fiction"
+     },
+     {
+       "title": "Ready Player One",
+       "author": "Ernest Cline",
+       "price": 10.07,
+       "format": "paperback",
+       "genre": "fiction"
+     },
+     {
+       "title": "Lilac Girls",
+       "author": "Martha Hall Kelly",
+       "price": 13.34,
+       "format": "hardcover",
+       "genre": "fiction"
+     },
+     {
+       "title": "Dog Man: A Tale of Two Kitties",
+       "author": "Dav Pilkey",
+       "price": 9.99,
+       "format": "hardcover",
+       "genre": "children's"
+     },
+     {
+       "title": "Captain Underpants",
+       "author": "Dav Pilkey",
+       "price": 17.99,
+       "format": "paperback",
+       "genre": "children's"
+     },
+     {
+       "title": "Turtles All the Way Down",
+       "author": "John Green",
+       "price": 12.59,
+       "format": "hardcover",
+       "genre": "young adult"
+     },
+     {
+       "title": "The Hate U Give",
+       "author": "Angie Thomas",
+       "price": 11.33,
+       "format": "hardcover",
+       "genre": "young adult"
+     },
+     {
+       "title": "Auggie & Me: Three Wonder Stories",
+       "author": "R. J. Palacio",
+       "price": 10.71,
+       "format": "paperback",
+       "genre": "young adult"
+     },
+     {
+       "title": "Love",
+       "author": "Loren Long",
+       "price": 12.36,
+       "format": "hardcover",
+       "genre": "picture"
+     },
+     {
+       "title": "I am Harriet Tubman",
+       "author": "Christopher Eliopoulos",
+       "price": 9.95,
+       "format": "hardcover",
+       "genre": "picture"
+     },
+     {
+       "title": "Principles: Life and Work",
+       "author": "Ray Dalio",
+       "price": 19.92,
+       "format": "ebook",
+       "genre": "how-to"
+     },
+     {
+       "title": "The 5 Love Languages",
+       "author": "Gary Chapman",
+       "price": 17.69,
+       "format": "hardcover",
+       "genre": "how-to"
+     },
+     {
+       "title": "The New Jim Crow: Mass Incarceration in the Age of Colorblindness",
+       "author": "Michelle Alexander",
+       "price": 14.29,
+       "format": "paperback",
+       "genre": "nonfiction"
+     },
+     {
+       "title": "The Whole30: The 30-Day Guide to Total Health and Food Freedom",
+       "author": "Melissa Hartwig,",
+       "price": 22.73,
+       "format": "ebook",
+       "genre": "how-to"
+     }
+   ]
+}
