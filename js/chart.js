@@ -14,10 +14,10 @@ function displayfileData(allData) {
       document.querySelector("#chart-container").innerHTML +=
       "<div class='book'>" +
       "<h3 class='book-title'>" + title + "</h3>" +
-      "<strong class='price'> $" + price + "</strong>" +
-      "<p class='author'>" + author + "</p>" +
-      "<p class='format'>" + format + "</p>" +
-      "<p class='genre'>" + genre + "</p>" +
+      "<p class='price'> $" + price + "</p>" +
+      "<p class='author'>Author: " + author + "</p>" +
+      "<p class='format'>Format: " + format + "</p>" +
+      "<p class='genre'>Genre: " + genre + "</p>" +
       "<div>";
    });
 }
