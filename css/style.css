@@ -20,9 +20,7 @@ body {
    flex-wrap: wrap;
 }
 
-.title {
-   width: 100%;
-}
+.title {}
 
 .book {
    width: 46%;
@@ -48,14 +46,8 @@ body {
    right: 0;
 }
 
-.author {
+.author {}
 
-}
+.format {}
 
-.format {
-
-}
-
-.genre {
-
-}
+.genre {}

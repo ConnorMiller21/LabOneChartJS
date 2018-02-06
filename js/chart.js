@@ -24,6 +24,8 @@ function displayfileData(allData) {
 
 function avePriceByFormat(allData) {
 
+   //console.log(allData);
+
    var numOfEbooks = 0;
    var ebookAcc = 0;
 
@@ -33,12 +35,8 @@ function avePriceByFormat(allData) {
    var numOfPaperBacks = 0;
    var paperbackAcc = 0;
 
-   //console.log(allData);
-
    allData.forEach( (book) => {
-
       //console.log(book.format);
-
       switch (book.format) {
          case "ebook":
             //console.log("in E!");
@@ -61,11 +59,9 @@ function avePriceByFormat(allData) {
    var aveEbookPrice = (ebookAcc / numOfEbooks).toFixed(2);
    var aveHardcoverPrice = (hardcoverAcc / numOfHardcovers).toFixed(2);
    var avePaperbackPrice = (paperbackAcc / numOfPaperBacks).toFixed(2);
-
    //console.log("Average Price of Ebook", aveEbookPrice);
    //console.log("Average Price of Hardcover", aveHardcoverPrice);
    //console.log("Average Price of Paperback", avePaperbackPrice);
-
    return {
       "title": "Average Price of Book By Book Format",
       "key": "Price",
