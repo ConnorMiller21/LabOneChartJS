@@ -13,6 +13,8 @@ window.onload = function() {
 
          displayfileData(dataInFile);
          createChartToDOM(priceByFormatData.title, priceByFormatData.bookFormat, priceByFormatData.key, priceByFormatData.avePrice);
+         var objReturn = avePriceByKey(dataInFile, "format");
+         console.log(objReturn);
       }
    };
    xmlhttp.open("GET", "js/books.json", true);

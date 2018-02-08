@@ -4,20 +4,47 @@
 
 body {
    margin: 0;
-   height: 100vh;
-   width: 100vw;
-   display: flex;
-   align-items: center;
-   justify-content: center;
    font-family: monospace;
 }
 
-#chart-container {
+header {
+   width: 100%;
+   text-align: center;
+   margin: 5% 0;
+   font-size: 1.75em
+}
+
+main {
    width: 90%;
    margin: auto;
+}
+
+.section-title {
+   text-align: center;
+   font-size: 2.5em;
+   margin-bottom: 5%;
+}
+
+.container {
+   padding-bottom: 7.5%;
+}
+
+.container:last-of-type {
+   padding-bottom: 0;
+}
+
+#chart-container {
    display: flex;
-   flex-direction: row;
    flex-wrap: wrap;
+   justify-content: center;
+   align-content: center;
+}
+
+#data-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-content: center;
 }
 
 .title {}
@@ -26,24 +53,22 @@ body {
    width: 46%;
    margin: 2%;
    padding: 1%;
-   text-align: center;
    text-transform: capitalize;
    position: relative;
 }
 
 .book-title {
-   font-size: 1.25em;
+   font-size: 1.5em;
    position: relative;
-   margin-top: 2.5%;;
+   margin-top: 2.5%;
+   ;
 }
 
 .price {
    font-size: 1.1em;
-   position: absolute;
    margin: 0;
    font-weight: bold;
-   top: -7.5%;
-   right: 0;
+
 }
 
 .author {}

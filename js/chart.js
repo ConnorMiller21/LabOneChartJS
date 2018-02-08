@@ -7,7 +7,7 @@ function displayfileData(allData) {
       let format = book.format;
       let genre = book.genre;
 
-      document.querySelector("#chart-container").innerHTML +=
+      document.querySelector("#data-container").innerHTML +=
       "<div class='book'>" +
       "<h3 class='book-title'>" + title + "</h3>" +
       "<p class='price'> $" + price + "</p>" +
@@ -44,7 +44,7 @@ function avePriceByFormat(allData) {
       }
    });
 
-   console.log(ebookArr, hardcoverArr, paperbackArr);
+   //console.log(ebookArr, hardcoverArr, paperbackArr);
 
    var aveEbookPrice = getArrayAverage(ebookArr);
    var aveHardcoverPrice = getArrayAverage(hardcoverArr);
@@ -91,8 +91,22 @@ function createChartToDOM(titleInfo, xLabelInfo, legendKeyLabel, dataInfo) {
          }],
          yAxes: [{
             display: true,
+            scaleLabel: {
+               display: true,
+               labelString: 'Price ( $ )',
+               fontSize: 18,
+               fontColor: "#333",
+            },
             ticks: {
                beginAtZero: true
+            }
+         }],
+         xAxes: [{
+            scaleLabel: {
+               display: true,
+               labelString: 'Format',
+               fontSize: 18,
+               fontColor: "#333",
             }
          }]
       },
@@ -109,14 +123,19 @@ function createChartToDOM(titleInfo, xLabelInfo, legendKeyLabel, dataInfo) {
              bottom: 0
          }
       },
+      /*
       title: {
          display: true,
          fontSize: 36,
          fontFamily: "monospace",
          fontColor: "#333",
          text: titleInfo,
+         bottom: 30
       },
-      legend: {}
+      */
+      legend: {
+         display: false,
+      }
    }
 
    // CREATES AND DISPLAYS CHARTJS OBJECt
